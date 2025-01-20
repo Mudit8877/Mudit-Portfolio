@@ -1,4 +1,3 @@
-import path from 'path';
 import { Fragment } from 'react';
 import UsesTitle from './uses-title';
 
