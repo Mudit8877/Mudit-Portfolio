@@ -1,4 +1,3 @@
-import path from 'path';
 import { Fragment, Suspense } from 'react';
 import Occupation from './occupation';
 
