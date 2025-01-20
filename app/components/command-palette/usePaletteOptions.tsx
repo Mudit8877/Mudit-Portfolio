@@ -7,7 +7,6 @@ import {
   HiOutlineDocumentAdd,
   HiOutlineDocumentDuplicate,
   HiOutlineHome,
-  HiOutlinePencil,
   HiOutlineUser,
 } from 'react-icons/hi';
 import { TbBolt, TbBoltOff } from 'react-icons/tb';

@@ -1,6 +1,8 @@
+import Image from 'next/image';
+
 export default function Contact() {
   return (
-    <section className="relative h-screen w-screen py-10 px-12 md:px-32 xl:px-36 dark:bg-black dark:text-white bg-white text-black">
+    <section className="relative min-h-screen py-10 px-12 md:px-32 xl:px-36 dark:bg-black dark:text-white bg-white text-black">
       {/* Achievements Section */}
       <div className="mt-10">
         <h2 className="text-3xl md:text-5xl xl:text-6xl mb-8 text-center">
@@ -9,11 +11,15 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
           {/* Achievement 1 */}
           <div className="flex flex-col items-center">
-            <div className="w-full h-64 overflow-hidden rounded-lg shadow-lg">
-              <img
+            <div className="w-full relative h-64 overflow-hidden rounded-lg shadow-lg">
+              <Image
                 src="/static/images/a1.jpeg"
                 alt="Achievement 1"
-                className="w-full h-full object-cover"
+                layout="responsive"
+                width={400}
+                height={300}
+                objectFit="cover"
+                className="rounded-lg"
               />
             </div>
             <h3 className="text-2xl font-semibold mt-4">Winner at Tekathon 3.0</h3>
@@ -24,11 +30,15 @@ export default function Contact() {
           </div>
           {/* Achievement 2 */}
           <div className="flex flex-col items-center">
-            <div className="w-full h-64 overflow-hidden rounded-lg shadow-lg">
-              <img
+            <div className="w-full relative h-64 overflow-hidden rounded-lg shadow-lg">
+              <Image
                 src="/static/images/z4.jpeg"
                 alt="Achievement 2"
-                className="w-full h-full object-cover"
+                layout="responsive"
+                width={400}
+                height={300}
+                objectFit="cover"
+                className="rounded-lg"
               />
             </div>
             <h3 className="text-2xl font-semibold mt-4">Hackaccino Runner-Up</h3>
@@ -39,11 +49,15 @@ export default function Contact() {
           </div>
           {/* Achievement 3 */}
           <div className="flex flex-col items-center">
-            <div className="w-full h-64 overflow-hidden rounded-lg shadow-lg">
-              <img
+            <div className="w-full relative h-64 overflow-hidden rounded-lg shadow-lg">
+              <Image
                 src="/static/images/a4.jpeg"
                 alt="Achievement 3"
-                className="w-full h-full object-cover"
+                layout="responsive"
+                width={400}
+                height={300}
+                objectFit="cover"
+                className="rounded-lg"
               />
             </div>
             <h3 className="text-2xl font-semibold mt-4">
@@ -59,9 +73,8 @@ export default function Contact() {
       <br />
       <br />
       <p className="text-xl text-center mt-8 font-semibold italic">
-        "Innovation and perseverance drive progress—every challenge is an opportunity to build something greater."
+        &quot;Innovation and perseverance drive progress—every challenge is an opportunity to build something greater.&quot;
       </p>
-
     </section>
   );
 }

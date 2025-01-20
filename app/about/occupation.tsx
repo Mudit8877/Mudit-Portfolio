@@ -10,12 +10,13 @@ export default function Occupation() {
           Self-taught Frontend Developer and Software Developer
         </h2>
         <div className="mt-4">
-          <p>
-            Hello! I’m <strong>Mudit Singh</strong>, a dedicated and results-driven software engineering
-            student specializing in Artificial Intelligence and Machine Learning. Currently pursuing my
-            Bachelor’s in Computer Science and Engineering at Chandigarh University, I have a solid academic
-            foundation and practical experience in building innovative applications.
-          </p>
+        <p>
+          Hello! I&#39;m <strong>Mudit Singh</strong>, a dedicated and results-driven software engineering
+          student specializing in Artificial Intelligence and Machine Learning. Currently pursuing my
+          Bachelor&#39;s in Computer Science and Engineering at Chandigarh University, I have a solid academic
+          foundation and practical experience in building innovative applications.
+        </p>
+
 
           <br />
           
