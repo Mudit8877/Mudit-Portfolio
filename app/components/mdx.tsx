@@ -1,4 +1,4 @@
-import { MDXRemote, MDXRemoteProps } from 'next-mdx-remote/rsc';
+import { MDXRemote, MDXRemoteProps } from 'next-mdx-remote';
 import Link from 'next/link';
 import { ComponentPropsWithoutRef } from 'react';
 
